@@ -4,7 +4,10 @@ import { component$ } from '@builder.io/qwik';
 export default component$(() => {
   return (
     <div>
-      Change me please!
+      Lamas Rule
+      <button onClick$={() => {
+        console.log('hello')
+      }}>Hello</button>
     </div>
   );
 });
